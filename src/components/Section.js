@@ -4,7 +4,9 @@ import React from 'react';
 const Section = ({hobbie}) => (
   <section>
         <ul>
-          <li>{hobbie.hobbie}</li>
+          {hobbie.map(hob=> 
+          <li>{hob.hobbie}</li>
+        )}
         </ul>
   </section>
 )

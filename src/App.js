@@ -2,13 +2,13 @@ import React from 'react';
 import Header from './components/Header';
 import Section from './components/Section'
 
-const Hobbies=[{hobbie:'musica'}];
+const Hobbies=[{hobbie:'musica'},{hobbie:'leer'}];
 
 
 const App = () => (
   <div>
     <Header/>
-    <Section hobbie={Hobbies[0]}/>
+    <Section hobbie={Hobbies}/>
   </div>
 )
 
